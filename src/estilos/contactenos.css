@@ -29,6 +29,9 @@
     margin: 5px 0;
     padding: 10px;
 }
+label {
+    margin: 10px 0 0 3px;
+}
 textarea {
     height: 100px;
     border: 1px solid white;
@@ -41,6 +44,7 @@ textarea {
 .submitContactenos {
     background-color: #282c34;
     color: white;
+    margin: 10px;
 }
 .submitContactenos:hover {
     background-color: black;
