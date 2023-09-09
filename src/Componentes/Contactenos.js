@@ -23,7 +23,7 @@ export default function Contactenos(props){
                         <input type="mail" name="main" id="mail" className="inputContactenos"/> 
                         <label htmlFor='msj'>Mensaje:</label>
                         <textarea name="mensaje" id="msj"></textarea>
-                        <input type="submit" value="ENVIAR" class="btnFormulario" className="submitContactenos"/>
+                        <input type="submit" value="ENVIAR"  className="submitContactenos"/>
                     </form>
                 </div>
             </main>
