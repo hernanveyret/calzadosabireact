@@ -1,0 +1,124 @@
+@font-face {
+    font-family: letra;
+    src: url(../font/LibreBaskerville-Regular.ttf);
+}
+button {
+    font-family: letra;
+}
+.btn-menu {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 5px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .btn-menu:hover {
+    background-color: #007BA3;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+  }
+  .btn-vermas {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    text-shadow: 1px 1px 0 black;
+    padding: 2px 5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .btn-vermas:hover {
+  filter:drop-shadow(2px 2px 5px black) ;
+  }
+  .btn-lupa {
+    background: none;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .btn-lupa img {
+    width: 25px;
+    filter: drop-shadow(2px 2px 5px black);
+  }
+  .btn-agregarCarrito {
+    padding: 5px;
+    margin: 5px 5px;
+    cursor: pointer;
+    background-color: #282c34;
+    color: white;
+    position: relative;
+    transition: .5s;
+  }
+  .btn-agregarCarrito::before {
+    content: url(../iconos/btn-bolsa.png);
+    filter: drop-shadow(2px 2px 5px black);
+    margin-right: 10px;
+  }
+  .btn-agregarCarrito:hover {
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px 5px white;
+  }
+  
+  .btn-footer {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-menu-vertical {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 10;
+    margin-bottom: 10px;
+    background-color: pink;
+    border: none;
+    filter:drop-shadow(2px 2px 5px black);
+    cursor: pointer;
+    transition: .5s;
+  }
+ .btn-menu-vertical:hover {
+  background-color: #007BA3;
+ }
+ 
+ .btn-menu-lista {
+  background: none;
+  font-family: letra;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+  padding: 2px 2px;
+ }
+ 
+ .btn-menu-lista:hover {
+  transform: translateX(20px);
+  text-shadow: 2px 2px 5px black;
+  color: white;
+ }
+ .btn-bolsita {
+  background: none;
+  border: none;
+ }
+ /*
+ .btn-btn-bolsita {
+  color: white;
+  padding: 10px;
+  background-color: #282c34;
+  border: none;
+  margin: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ */
+ .btn-btn-bolsita {
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+    cursor:pointer;
+    margin: 10px 0;
+ }
+ .btn-btn-bolsita:hover {
+  background-color: black;
+  font-weight: 700;
+ }
