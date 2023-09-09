@@ -24,8 +24,8 @@ export default function VerMas({ide}){
   let colorSelect;
   
   // Agrega producto a la bolsa.
-  let agregar = (e) => {
-    
+
+  let agregar = (e) => {    
     const contenedor = document.querySelector('.main-main-productos')
     const articulo = contenedor.querySelector('.art').textContent;
     const marca = contenedor.querySelector('.marca').textContent;
@@ -43,6 +43,7 @@ export default function VerMas({ide}){
       total:precio,
       cantidad: 1
     }
+    
     setProducto(nuevoProducto)
     setProductos((productoAnterior) => [...productoAnterior, { ...nuevoProducto }]);
     setCheckCompra(true)
@@ -50,6 +51,10 @@ export default function VerMas({ide}){
   
   useEffect(() => {      
     localStorage.setItem("articulosBolsita",JSON.stringify(productos)); // el articulo comprado queda persistente
+    let recuperar = JSON.parse(localStorage.getItem("articulosBolsita"))    
+    const juntaPares = recuperar.map(e => e.cantidad);
+    const totalPares = juntaPares.reduce((a,b) => a+b, 0);
+    document.getElementById('cantidad-productos-bolsita').textContent = totalPares;
     
    },[producto,productos ])
  
@@ -156,9 +161,9 @@ export default function VerMas({ide}){
             evento={agregar}
             texto='AGREGAR'
             />
-          </section>
-              
+          </section>             
           </div> 
+         
         </div>  
     )
 }

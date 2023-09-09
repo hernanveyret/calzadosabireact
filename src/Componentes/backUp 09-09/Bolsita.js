@@ -18,7 +18,7 @@ export default function Bolsita(){
   sumaPares = 0;
  }
  useEffect(() => {
-
+    document.getElementById('cantidad-productos-bolsita').textContent = sumaPares;
  },[sumaPares])
 
  const juntaPlata=[]

@@ -4,7 +4,6 @@ import '../estilos/bolsita.css'
 
 function IcoBolsita({contador,verCompra}){
 
-    
     return (
         <div className="iconoContenedor">
             <div className="iconoBolsita">

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: letra;
+    src: url(../font/LibreBaskerville-Regular.ttf);
+}
+.main-contactenos img {
+    width: 50%;
+    position: relative;
+}
+.formulario {
+    background-color: #4EA2F2;
+    width: 30%;
+    height: auto;
+    padding: 10px 0;
+    position: absolute;
+    box-shadow: 2px 2px 5px black;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: letra;
+}
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.formulario form input {
+    margin: 5px 0;
+    padding: 10px;
+}
+textarea {
+    height: 100px;
+    border: 1px solid white;
+    background: none;
+}
+.inputContactenos {
+    border: 1px solid white;
+    background: none;
+}
+.submitContactenos {
+    background-color: #282c34;
+    color: white;
+}
+.submitContactenos:hover {
+    background-color: black;
+}
+@media only screen and (max-width: 1250px) { 
+    .formulario {
+        width: 75%;
+    }
+}
+
+@media (max-width: 500px) { 
+    .formulario {
+        width: 70%;
+        top: 160px;
+    }
+}

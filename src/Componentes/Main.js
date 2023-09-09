@@ -10,7 +10,7 @@ import Bolsita from './Bolsita';
 import SelectBuscador from './SelectBuscador';
 
 export default function Main({pro,ini,info,con,proS,tipo,select,ver,ide,compra, buscador,miBuscador}){
-    
+       
     return (
         <div className='main-productos'>
             
@@ -22,7 +22,7 @@ export default function Main({pro,ini,info,con,proS,tipo,select,ver,ide,compra, 
               { ini ? <Inicio /> : '' }
               { info ? <Informacion /> : '' }
               { con ? <Contactenos /> : '' }
-              { buscador ? <SelectBuscador valor={miBuscador}/> : '' }           
+              { buscador ? <SelectBuscador valor={miBuscador}/> : '' }                      
             </div>
         </div>
     )

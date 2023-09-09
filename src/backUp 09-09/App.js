@@ -3,7 +3,6 @@ import React, {useState,useEffect, useRef} from 'react';
 import Boton from './Componentes/Boton';
 import MenuLista from './Componentes/MenuLista';
 import Main from './Componentes/Main';
-import IcoBolsita from './Componentes/IcoBolsita';
 import Buscador from './Componentes/Buscador';
 //------------------estilos-------------------------
 import './App.css';
@@ -39,20 +38,14 @@ function App() {
   const [bolsaStorage,setBolsaStorage] = useState(bolsita ? JSON.parse(bolsita) : []) // si hay producto lo agrega sino, agrega un array vacio
   const juntaPares = bolsaStorage.map(e => e.cantidad);
   const totalPares = juntaPares.reduce((a,b) => a+b, 0);
+
+  useEffect(() => {
+    setParesTotal(totalPares)
+  },[totalPares])
    
   let refBuscador = useRef();
   let refInput = useRef();
 
-  useEffect(() => {
-   setBolsita(localStorage.getItem('articulosBolsita'))
-   setBolsaStorage(bolsita ? JSON.parse(bolsita) : [])
-   // const juntaPares = bolsaStorage.map(e => e.cantidad);
-   // const totalPares = juntaPares.reduce((a,b) => a+b, 0);
-
-     //setParesTotal(totalPares)  
-    setParesTotal(prevParesTotal => totalPares)
-  }, []); // Se ejecuta solo al montar el componente
- 
   let inicio = () => {
     setSelectB(false)
     setI(true)
@@ -119,8 +112,7 @@ function App() {
   }
 
   let buscarBarra = () => {
-    refBuscador.current.style.display='flex'
-    
+    refBuscador.current.style.display='flex'    
   }
 
   let barra = () => {
@@ -267,7 +259,6 @@ useEffect(() => {
             {i ? <Main ini={i} /> : '' } 
             {inf ? <Main info={inf} /> : ''}
             {c ? <Main con={c} /> : '' }
-            { totalPares > 0 ? <IcoBolsita contador={paresTotal} verCompra={verCompra}/> : ''}
         </section>
 
       </main>

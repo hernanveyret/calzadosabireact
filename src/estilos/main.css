@@ -64,4 +64,9 @@
     align-items: center;
     overflow:auto;
 }
+.main-contactenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 

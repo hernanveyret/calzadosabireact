@@ -7,13 +7,11 @@ import '../estilos/botones.css';
 import '../estilos/descripcion.css';
 import db from '../Api/db.json'
  
-
 export default function VerMas({ide}){
   
   const bolsa = localStorage.getItem('articulosBolsita') // toma el valor de localStorage
   const bolsaSotage = bolsa ? JSON.parse(bolsa) : []; // si tiene algo lo agrega a la variable, sino le agrega un array vacio
  
-
   const [productos,setProductos] = useState(bolsaSotage)
   const [producto,setProducto] = useState({})
   const [imagen,setImagen] = useState(undefined)

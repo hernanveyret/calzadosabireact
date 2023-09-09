@@ -12,14 +12,14 @@ export default function SelectBuscador({valor}){
    let valorU = valor[0].toUpperCase() + valor.slice(1)
    let opcion = db.filter(e => e.articulo === valorU || e.marca === valorU || e.genero === valorU || e.estilo === valorU || e.categoria === valorU);
         setProducto(opcion)
-    
+  
   },[valor])
 
   return (
     <div className='main-productos'>
         <h1>BUSCADOR</h1>
           <div className="main-main-productos">
-          {
+          { producto.length > 0 ?
               producto.map((e,i) =>  (
                 
                 <div className="tresD" key={e.idUno}>
@@ -39,10 +39,7 @@ export default function SelectBuscador({valor}){
                     
                   </div>  
                 </div>       
-              )
-                  
-                            
-                )
+              )) : <h3>Producto no encontrado</h3>
             }
         </div>
     </div>

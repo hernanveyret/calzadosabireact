@@ -525,8 +525,8 @@
         "estilo": "Zapatilla",
         "material":"Tela",
         "otrosColores": [
-          {"id": "29.1", "nInicio": 23, "nFinal": 36, "imagen": "img/productos/niños/heyday/165heydayrosa.webp", "color": "Azul","idUno":"165heydayazul","idDos":"id165heydayazul"},
-          {"id": "29.2", "nInicio": 23, "nFinal": 36, "imagen": "img/productos/niños/heyday/165heydayrosa.webp", "color": "Negro","idUno":"165heydaynegro","idDos":"id165heydaynegro"}
+          {"id": "29.1", "nInicio": 23, "nFinal": 36, "imagen": "img/productos/niños/heyday/165heydayazul.png", "color": "Azul","idUno":"165heydayazul","idDos":"id165heydayazul"},
+          {"id": "29.2", "nInicio": 23, "nFinal": 36, "imagen": "img/productos/niños/heyday/165heydaynegro.png", "color": "Negro","idUno":"165heydaynegro","idDos":"id165heydaynegro"}
          ]
       },
       {
@@ -1141,12 +1141,27 @@
         ]
       },
       {
-        "id": "62",
+        "id": "63",
+        "articulo": "4250",
+        "nInicio": 39,
+        "nFinal": 45,
+        "marca": "Gowell",
+        "precio": 9500,
+        "imagen": "img/productos/hombre/gowell/4250gowellnegro.png",
+        "color": "Negro",
+        "idUno": "4250gowellnegro",
+        "idDos": "id4250gowellnegro",
+        "categoria": "Hombre",
+        "estilo": "Pancha",
+        "material":"Lona"
+      },
+      {
+        "id": "64",
         "articulo": "320",
         "nInicio": 34,
         "nFinal": 45,
         "marca": "Jaguar",
-        "precio": 5600,
+        "precio": 6200,
         "imagen": "img/productos/hombre/jaguar/320/320jaguarblanco.webp",
         "color": "Blanco",
         "idUno": "320jaguarblanco",
@@ -1155,14 +1170,14 @@
         "estilo": "Zapatilla",
         "material":"Lona",
         "otrosColores": [
-          {"id": "62.1", "nInicio": 34, "nFinal": 45, "imagen": "img/productos/hombre/jaguar/320/320jaguarblack.webp", "color": "Black","idUno":"320jaguarblack","idDos":"id320jaguarblack","categoria":"unisex"},
-          {"id": "62.1", "nInicio": 34, "nFinal": 45, "imagen": "img/productos/hombre/jaguar/320/320jaguarnegro.webp", "color": "Negro","idUno":"320jaguarnegro","idDos":"id320jaguarnegro","categoria":"unisex"},
-          {"id": "62.1", "nInicio": 34, "nFinal": 45, "imagen": "img/productos/hombre/jaguar/320/320jaguarjean.webp", "color": "Jean","idUno":"320jaguarjean","idDos":"id320jaguarjean","categoria":"unisex"},
-          {"id": "62.1", "nInicio": 34, "nFinal": 45, "imagen": "img/productos/hombre/jaguar/320/320jaguarrojo.webp", "color": "Rojo","idUno":"320jaguarrojo","idDos":"id320jaguarrojo","categoria":"unisex"}
+          {"id": "64.1", "nInicio": 34, "nFinal": 45, "imagen": "img/productos/hombre/jaguar/320/320jaguarblack.webp", "color": "Black","idUno":"320jaguarblack","idDos":"id320jaguarblack","categoria":"unisex"},
+          {"id": "64.2", "nInicio": 34, "nFinal": 45, "imagen": "img/productos/hombre/jaguar/320/320jaguarnegro.webp", "color": "Negro","idUno":"320jaguarnegro","idDos":"id320jaguarnegro","categoria":"unisex"},
+          {"id": "64.3", "nInicio": 34, "nFinal": 45, "imagen": "img/productos/hombre/jaguar/320/320jaguarjean.webp", "color": "Jean","idUno":"320jaguarjean","idDos":"id320jaguarjean","categoria":"unisex"},
+          {"id": "64.4", "nInicio": 34, "nFinal": 45, "imagen": "img/productos/hombre/jaguar/320/320jaguarrojo.webp", "color": "Rojo","idUno":"320jaguarrojo","idDos":"id320jaguarrojo","categoria":"unisex"}
            ]
       },
       {
-        "id": "63",
+        "id": "65",
         "articulo": "9037",
         "nInicio": 39,
         "nFinal": 44,
@@ -1176,12 +1191,12 @@
         "estilo": "Zapatilla",
         "material":"Tela",
         "otrosColores": [
-          {"id": "63.1", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/jaguar/9037/9037jaguarnegroamarillo.png", "color": "Negro/Amarillo","idUno":"9037jaguarnegroamarillo","idDos":"id9037jaguarnegroamarillo","categoria":"Hombre"},
-          {"id": "63.2", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/jaguar/9037/9037jaguargris.png", "color": "Gris","idUno":"9037jaguargris","idDos":"id9037jaguargris","categoria":"Hombre"}
+          {"id": "65.1", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/jaguar/9037/9037jaguarnegroamarillo.png", "color": "Negro/Amarillo","idUno":"9037jaguarnegroamarillo","idDos":"id9037jaguarnegroamarillo","categoria":"Hombre"},
+          {"id": "65.2", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/jaguar/9037/9037jaguargris.png", "color": "Gris","idUno":"9037jaguargris","idDos":"id9037jaguargris","categoria":"Hombre"}
         ]
       },
       {
-        "id": "64",
+        "id": "66",
         "articulo": "1512",
         "nInicio": 39,
         "nFinal": 44,
@@ -1195,12 +1210,12 @@
         "estilo": "Zapatilla",
         "material":"Tela",
         "otrosColores": [
-          {"id": "64.1", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/airness/1512airnessnegro.png", "color": "Negro","idUno":"/1512airnessnegro","idDos":"id/1512airnessnegro","categoria":"Hombre"}
+          {"id": "66.1", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/airness/1512airnessnegro.png", "color": "Negro","idUno":"/1512airnessnegro","idDos":"id/1512airnessnegro","categoria":"Hombre"}
           
         ]
       },
       {
-        "id": "65",
+        "id": "67",
         "articulo": "1515",
         "nInicio": 39,
         "nFinal": 44,
@@ -1214,8 +1229,25 @@
         "estilo": "Zapatilla",
         "material":"Tela",
         "otrosColores": [
-          {"id": "65.1", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/airness/1515airnessnegro.png", "color": "Negro","idUno":"/1515airnessnegro","idDos":"id/1515airnessnegro","categoria":"Hombre"}
-          
+          {"id": "67.1", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/airness/1515airnessnegro.png", "color": "Negro","idUno":"1515airnessnegro","idDos":"id1515airnessnegro","categoria":"Hombre"}
+        ]
+      },
+      {
+        "id": "67",
+        "articulo": "3042",
+        "nInicio": 39,
+        "nFinal": 44,
+        "marca": "Proforce",
+        "precio": 13160,
+        "imagen": "img/productos/hombre/proforce/3042/3042proforcenegro.png",
+        "color": "Negro",
+        "idUno": "3042proforcenegro",
+        "idDos": "id3042proforcenegro",
+        "categoria": "Hombre",
+        "estilo": "Zapatilla",
+        "material":"Tela",
+        "otrosColores": [
+          {"id": "67.1", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/proforce/3042/3042proforceazul.png", "color": "Azul","idUno":"3042proforceazul","idDos":"id3042proforceazul","categoria":"Hombre"}
         ]
       },
       {
@@ -1286,6 +1318,60 @@
         "material":"Cuero",
         "otrosColores": [
           {"id": "65.1", "nInicio": 39, "nFinal": 44, "imagen": "img/productos/hombre/ringo/joel01ringosuela.webp", "color": "Choco","idUno":"joel01ringosuela","idDos":"idjoel01ringosuela","categoria":"hombre"}
+        ]
+      },
+      {
+        "id": "66",
+        "articulo": "1023",
+        "nInicio": 35,
+        "nFinal": 44,
+        "marca": "Action",
+        "precio": 12300,
+        "imagen": "img/productos/hombre/action/1023negroaction.png",
+        "color": "Negro",
+        "idUno": "1023negroaction",
+        "idDos": "id1023negroaction",
+        "categoria": "Unisex",
+        "estilo": "Botin",
+        "material":"Cuerina",
+        "otrosColores": [
+          {"id": "66.1", "nInicio": 35, "nFinal": 44, "imagen": "img/productos/hombre/action/1023azulaction.png", "color": "Azul","idUno":"1023azulaction","idDos":"id1023azulaction","categoria":"Unisex"}
+        ]
+      },
+      {
+        "id": "67",
+        "articulo": "115",
+        "nInicio": 35,
+        "nFinal": 44,
+        "marca": "Action",
+        "precio": 12300,
+        "imagen": "img/productos/hombre/action/115actionchoco.png",
+        "color": "Choco",
+        "idUno": "115actionchoco",
+        "idDos": "id115actionchoco",
+        "categoria": "Hombre",
+        "estilo": "Sandalia",
+        "material":"Cuerina",
+        "otrosColores": [
+          {"id": "67.1", "nInicio": 35, "nFinal": 44, "imagen": "img/productos/hombre/action/115actionnegro.png", "color": "Negro","idUno":"115actionnegro","idDos":"id115actionnegro","categoria":"hombre"}
+        ]
+      },
+      {
+        "id": "68",
+        "articulo": "7000",
+        "nInicio": 35,
+        "nFinal": 44,
+        "marca": "Proforce",
+        "precio": 9150,
+        "imagen": "img/productos/hombre/proforce/7000/7000proforceazul.png",
+        "color": "Azul",
+        "idUno": "7000proforceazul",
+        "idDos": "id7000proforceazul",
+        "categoria": "Hombre",
+        "estilo": "B.lluvia",
+        "material":"Goma",
+        "otrosColores": [
+          {"id": "68.1", "nInicio": 35, "nFinal": 44, "imagen": "img/productos/hombre/proforce/7000/7000proforcenegro.webp", "color": "Negro","idUno":"7000proforcenegro","idDos":"id7000proforcenegro","categoria":"hombre"}
         ]
       }
       
