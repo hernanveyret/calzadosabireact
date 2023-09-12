@@ -12,6 +12,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     width: 300%;
+    height: auto;
     position: absolute;
     left: -0%;       /* Moviemiento lateral de las imagenes, negativo mueve a la izquierda */
 }
@@ -32,4 +33,11 @@
     width: 100%;
     position: absolute;
     bottom: 50%;
+}
+@media (max-width: 500px) {
+    
+    .img-carrusel img {
+        width: 100%;
+        
+    }
 }

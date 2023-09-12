@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState , useEffect} from 'react';
 import '../estilos/cards.css';
 import '../estilos/main.css';
 import '../estilos/inicio.css';
@@ -9,16 +9,19 @@ import ImagenTres from '../imagenes/banner/imagenTres.webp';
 
 export default function Inicio(props) {
     let refImg = useRef();
+    const [contador, setContador] = useState(0)
 
     let moverIzq = () => {
-      console.log('izquierda')
-      console.log(refImg.current)
-      refImg.current.style.transition='.5s';
-      refImg.current.style.left= -100 + '%'
+      contador > -200 ? setContador((prevContador) => prevContador - 100) : setContador(0)
     }
     let moverDer = () => {
-      console.log('derecha')
+     contador === 0 ? setContador(0) :  setContador((prevContador) => prevContador + 100)
     }
+    useEffect(() => {
+      refImg.current.style.transition = '.5s';
+      refImg.current.style.left = contador + '%';
+    },[contador])
+
   return (
     <div className="main-inicio">
       <h1>INICIO</h1>

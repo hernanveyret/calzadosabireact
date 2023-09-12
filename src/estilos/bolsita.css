@@ -72,7 +72,7 @@ td button:hover {
 }
 .iconoContenedor {
     position: fixed;
-    bottom: 70px;
+    bottom: 110px;
     right: 25px;
     z-index: 13;
 }
