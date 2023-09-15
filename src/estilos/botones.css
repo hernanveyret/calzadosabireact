@@ -63,15 +63,16 @@ button {
     padding: 0 10px;
     margin: 25px 5px;
     cursor: pointer;
-    background-color: #282c34;
+   /* background-color: #282c34; */
+   background: none;
+   border: none;
     color: white;
     font-size: 40px;
     text-shadow: 2px 2px 5px white;
   }
   .btn-carrusel:hover {
-    background-color: black;
     color: white;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px rgb(15, 14, 14);
   }
   .btn-footer {
     background: none;
