@@ -1,0 +1,9 @@
+.contenedor-carrusel {    
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background: rgb(124, 248, 119);
+}

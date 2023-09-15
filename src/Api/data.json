@@ -1,0 +1,44 @@
+[
+  {
+    "id":1,
+    "carrusel": [
+      {
+          "id":"ca1",
+          "imagen":""                
+      },
+      {
+          "id":"ca2",
+          "imagen":""
+      },
+      {
+          "id":"ca3",
+          "imagen":""
+      }
+    ]
+  },
+  {
+    "id":2,
+    "ofertas":[
+      {
+        "id":"of1",
+        "imagen":""
+      },
+      {
+        "id":"of2",
+        "imagen":""
+      },
+      {
+        "id":"of3",
+        "imagen":""
+      },
+      {
+        "id":"of4",
+        "imagen":""
+      }        
+    ]
+  },
+  {
+    "id:":"v1",
+    "varios":[]
+  }
+]
