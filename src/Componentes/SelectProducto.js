@@ -3,14 +3,10 @@ import Boton from './Boton';
 import '../estilos/cards.css';
 import '../estilos/main.css';
 import '../estilos/botones.css';
-import db from '../Api/db.json';
 
-
-
-export default function SelectProducto({tipo,select}) {
-    let productoSelect = db.filter(e => e[tipo] === select)
+export default function SelectProducto({tipo,select,dataBase}) {
+    let productoSelect = dataBase.filter(e => e[tipo] === select)
   
-    
     return (
         <div className='main-productos'>
         <h1>{select}</h1>

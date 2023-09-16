@@ -16,7 +16,6 @@ export default function Carrusel() {
     }
     const [contador, setContador] = useState(0)
 
-    console.log(refImg.current)
     
     let moverIzq = () => {
       contador > -400 ? setContador((prevContador) => prevContador - 100) : setContador(0)

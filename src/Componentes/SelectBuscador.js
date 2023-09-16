@@ -1,19 +1,18 @@
 import React, {useState, useEffect} from "react";
-import db from '../Api/db.json';
 import '../estilos/main.css';
 import '../estilos/cards.css';
 import '../estilos/botones.css';
 import Boton from './Boton';
 
-export default function SelectBuscador({valor}){
+export default function SelectBuscador({valor,dataBase}){
   const [producto, setProducto] = useState([])
   
   useEffect(() => {
    let valorU = valor[0].toUpperCase() + valor.slice(1)
-   let opcion = db.filter(e => e.articulo === valorU || e.marca === valorU || e.genero === valorU || e.estilo === valorU || e.categoria === valorU);
+   let opcion = dataBase.filter(e => e.articulo === valorU || e.marca === valorU || e.genero === valorU || e.estilo === valorU || e.categoria === valorU);
         setProducto(opcion)
   
-  },[valor])
+  },[valor,dataBase])
 
   return (
     <div className='main-productos'>

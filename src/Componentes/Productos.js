@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Boton from './Boton';
-import db from '../Api/db.json';
+
 import '../estilos/cards.css';
 import '../estilos/main.css';
 import '../estilos/botones.css';
@@ -24,6 +24,13 @@ let comprar = (e) => {
 }
 
 export default class Productos extends Component {
+  constructor(props){
+      super(props);
+     this.state = {
+      articulos: props.dataBase
+     }
+  }
+
    render () {
     return (
       
@@ -31,7 +38,7 @@ export default class Productos extends Component {
           <h1>TODOS LOS PRODUCTOS</h1>
           <div className="main-main-productos">  
         {
-          db.map((e ,i ) => (  
+          this.state.articulos.map((e ,i ) => (  
             <div className="tresD" key={e.idUno}>                
             <div className="cardsArticulos" data-idd={e.idUno}>              
               <p className="art">{e.articulo}</p>

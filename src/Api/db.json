@@ -13,6 +13,8 @@
         "categoria": "Niños",
         "estilo": "Sandalia",
         "material":"Cuerina",
+        "oferta":true,
+        "descuento":15,
         "otrosColores": [
           {"id": "1.1", "nInicio": 21, "nFinal": 26, "imagen": "img/productos/niños/e&g/525eygblanco.webp", "color": "Blanco","idUno":"5251blanco","idDos":"id5251blanco"}
          ]
@@ -31,6 +33,8 @@
         "categoria": "Niños",
         "estilo": "Sandalia",
         "material":"Cuerina",
+        "oferta":true,
+        "descuento":15,
         "otrosColores": [
           {"id": "2.1", "nInicio": 27, "nFinal": 36, "imagen": "img/productos/niños/e&g/525eygnegro.webp", "color": "Negro","idUno":"525/2negro","idDos":"id5252negro"}
          ]
@@ -48,7 +52,9 @@
         "idDos": "id280eyglila",
         "categoria": "Niños",
         "estilo": "Sandalia",
-        "material":"Cuerina"
+        "material":"Cuerina",
+        "oferta":true,
+        "descuento":15
       },
       {
         "id":4,
@@ -63,7 +69,9 @@
         "idDos": "id270eygrosa",
         "categoria": "Niños",
         "estilo": "Sandalia" ,
-        "material":"Cuerina"
+        "material":"Cuerina",
+        "oferta":false,
+        "descuento":15
       },
       {
         "id":5,
@@ -79,8 +87,8 @@
         "categoria": "Niños",
         "estilo": "Sandalia",
         "material":"Cuerina",
-        "destacado": false,
         "oferta": false,
+        "descuento":15,
         "otrosColores": [
           {"id": "5.1", "nInicio": 21, "nFinal": 26, "imagen": "img/productos/niños/e&g/500eygnegro.webp", "color": "Negro","idUno":"500/1eygnegro","idDos":"id5001eygnegro"}
          ]
@@ -99,8 +107,8 @@
         "categoria": "Niños",
         "estilo": "Sandalia",
         "material":"Cuerina",
-        "destacado": false,
         "oferta": false,
+        "descuento":15,
         "otrosColores": [
           {"id": "6.1", "nInicio": 27, "nFinal": 36, "imagen": "img/productos/niños/e&g/500eygblanco.webp", "color": "Blanco","idUno":"500/2eygnegro","idDos":"id5002eygnegro"}
          ]
@@ -119,8 +127,8 @@
         "categoria": "Niños",
         "estilo": "Sandalia",
         "material":"Cuerina",
-        "destacado": true,
         "oferta": false,
+        "descuento":15,
         "otrosColores": [
           {"id": "7.1", "nInicio": 21, "nFinal": 26, "imagen": "img/productos/niños/e&g/590eygplata.webp", "color": "Plata","idUno":"5901eygplata","idDos":"id5901eygplata"}
          ]
@@ -139,8 +147,8 @@
         "categoria": "Niños",
         "estilo": "Sandalia",
         "material":"Cuerina",
-        "destacado": true,
         "oferta": false,
+        "descuento": 15,
         "otrosColores": [
           {"id": "8.1", "nInicio": 27, "nFinal": 36, "imagen": "img/productos/niños/e&g/590eygnegro.webp", "color": "Negro","idUno":"5902negro","idDos":"id5902negro"}
          ]
@@ -159,6 +167,8 @@
         "categoria": "Niños",
         "estilo": "Sandalia",
         "material":"Cuerina",
+        "oferta": false,
+        "descuento": 10,
         "otrosColores": [
           {"id": "9.1", "nInicio": 27, "nFinal": 36, "imagen": "img/productos/niños/e&g/540eygblanco.webp", "color": "Blanco","idUno":"540eygblanco","idDos":"id540eygblanco"}
          ]
@@ -177,7 +187,8 @@
         "categoria": "Niños",
         "estilo": "Zapatilla",
         "material":"Cuerina",
-
+        "oferta": false,
+        "descuento": 10,
         "otrosColores": [
           {"id": "10.1", "nInicio": 27, "nFinal": 34, "imagen": "img/productos/niños/blink/306blinkgris.webp", "color": "Gris","idUno":"306blinkgris","idDos":"id306blinkgris"}
          ]
@@ -196,6 +207,8 @@
         "categoria": "Niños",
         "estilo": "Botin",
         "material":"Cuerina",
+        "oferta": false,
+        "descuento":10,
         "otrosColores": [          
           {"id": "11.1", "nInicio": 27, "nFinal": 37, "imagen": "img/productos/niños/blink/323blinkceleste.webp", "color": "Celeste","idUno":"323blinkbceleste","idDos":"id323blinkbceleste"},
           {"id": "11.2", "nInicio": 27, "nFinal": 37, "imagen": "img/productos/niños/blink/323blinkazul.webp", "color": "Azul","idUno":"323blinkbazul","idDos":"id323blinkbazul"},
@@ -388,6 +401,8 @@
         "categoria": "Niños",
         "estilo": "Zapatilla",
         "material":"Lona",
+        "oferta": true,
+        "descuento":10,
         "otrosColores": [
           {"id": "21.1", "nInicio": 23, "nFinal": 36, "imagen": "img/productos/niños/heyday/007heydaynegro.webp", "color": "Negro","idUno":"007heydaynegro","idDos":"id007heydaynegro"}
          ]
@@ -934,6 +949,8 @@
         "categoria": "Dama",
         "estilo": "Ojotas",
         "material":"Goma",
+        "oferta": false,
+        "descuento": 10,
         "otrosColores": [
           {"id": "50.1", "nInicio": 36, "nFinal": 40, "imagen": "img/productos/dama/savage/pianasavagenegro.webp", "color": "Negro","idUno":"pianasavagenegro","idDos":"pianasavagenegro","categoria":"dama"}
            ]
@@ -1042,7 +1059,9 @@
         "idDos": "id1778airnessmulticolor",
         "categoria": "Dama",
         "estilo": "Zapatilla",
-        "material":"Cuerina"
+        "material":"Cuerina",
+        "oferta": true,
+        "descuento": 10
       },
       {
         "id": "57",

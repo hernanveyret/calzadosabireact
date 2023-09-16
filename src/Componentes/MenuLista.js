@@ -2,7 +2,6 @@ import React from 'react';
 import productos from '../Api/db.json';
 import '../estilos/botones.css';
 
-
 export default function MenuLista({tipo}){
     const condicion = []
   for ( let i = 0; i < productos.length; i++) {
