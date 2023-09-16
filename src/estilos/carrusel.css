@@ -35,6 +35,11 @@
     position: absolute;
     bottom: 50%;
 }
+@media only screen and (max-width: 1250px) {
+    .img-carrusel img {
+        width: 100%;
+    }
+}
 @media (max-width: 500px) {
     
     .img-carrusel img {
